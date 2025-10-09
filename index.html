@@ -62,7 +62,7 @@ nav a.active:hover {
     background-color: rgb(10, 130, 200);
     cursor: pointer;
     font-size: 20px;
-    box-shadow: 3px 3px 20px 3px rgb(68, 255, 0);
+    box-shadow: 1px 2px 10px 2px rgb(141, 255, 99);
     width: 110px;
 }
 
@@ -86,13 +86,13 @@ html {
     height: 500px;
     width: auto;
     border-radius: 15px;
-    box-shadow: 0 0 25px rgba(254, 254, 254, 0.7); /* Nice glowing effect */
+    box-shadow: 0 0 25px rgba(56, 56, 56, 0.7); /* Nice glowing effect */
     transition: transform 0.3s ease, box-shadow 0.3s ease;
 }
 
 .Home img:hover {
     transform: scale(1.05);
-    box-shadow: 0 0 25px rgba(13, 167, 233, 1);
+    box-shadow: 0 0 25px rgb(29, 187, 255);
 }
 
 h1 {
@@ -113,6 +113,7 @@ h1 {
     gap: 10px;
     font-size: 20px;
     border: 0.5px solid rgba(13, 167, 233, 0.548);
+    border-radius: 10px;
 }
 
 /* Skills Section */
@@ -185,6 +186,42 @@ h2 {
     font-size: 40px;
     margin-top: 50px;
     
+}
+.Project{
+    display: flex;
+    flex-direction: column;
+    gap: 10px;
+    margin-top: 250px;
+    padding-bottom: 50px;
+   
+}
+
+/* Contact Section */
+.Project {
+    color: rgb(255, 255, 255);
+    margin-top: 50px;
+    
+}
+.pro{
+    border-bottom: 0.5px solid rgb(128, 128, 128);
+    width: 1300px;
+    height: 100px;
+    
+
+
+    
+}
+.pro >h3{
+    color: rgb(177, 255, 161);
+    font-size: 30px;
+    display: flex;
+
+}
+.pro >p{
+    color: rgb(255, 255, 255);
+    font-size: 20px;
+    display: flex;
+    padding-top: 20px;
 }
 @media (max-width: 768px) {
             nav {
@@ -285,6 +322,7 @@ h2 {
     <nav>
         <a href="#Home" class="active">Home</a>
         <a href="#Skills" class="active">Skills</a>
+        <a href="#Project" class="active">Project</a>
         <a href="#ContactME" class="active">ContactMe</a>
        </nav>
     <div class="Container" id="Container">
@@ -323,20 +361,46 @@ h2 {
 
            
             </div>
-            <div class="skillsimg">
+              <div class="skillsimg">
                   <div class="img1"><img src="https://i0.wp.com/kevinfream.blog/wp-content/uploads/2013/01/java.jpg  " alt="" width="200px" height="180px"><h2>Java</h2></div>
                   <div class="img1"><img src="https://cdn.vectorstock.com/i/500p/37/17/figma-logo-square-outline-icon-app-vector-56623717.jpg  " alt="" width="200px" height="180px"><h2>Figma</h2></div>
+                  <div class="img1"><img src="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcQUZK5gi1clbPagXVx8PLkTK8qhlBCjve9oRw&s" alt="" width="200px" height="180px"><h2>Adobe XD</h2></div>
                  
             </div>
               
         </div>
     </section>
+    <section id="Project">
+        <div class="Project">
+            <h1>Project</h1>
+            <di class="pro">  <h3>Leave Management System</h3>
+            <p>Developed a system to track employee leave balances, approvals, and summaries. </p></di>
+            <di class="pro">  <h3>Personal Portfolio Website</h3>
+            <p>Created a responsive portfolio website showcasing web development projects and designs. </p></di>
+            <di class="pro">  <h3>Movie Website UI/UX Design</h3>
+            <p> Designed interactive UI with modern aesthetics, focusing on user-friendly navigation and responsive layout.</p></di>
+            <di class="pro">  <h3>Travel App UI/UX Design</h3>
+            <p>Created echo friendly and intuitive UX flows for booking, search, and itinerary management with Figma prototypes. </p></di>
+            <di class="pro">  <h3>Taxi Booking App UI/UX Design</h3>
+            <p>Developed UX wireframes and high-fidelity designs to improve booking and driver tracking experience.</p></di>
+            <di class="pro">  <h3>Online grocery store UI/UX Design</h3>
+            <p>Designed a user-friendly and visually appealing UI for an online grocery store.create a user-friendly and CSR,Delivery agent.</p></di>
+          
+
+        </div>
+       
+
+    </section>
+
     <section id="ContactME">
         <div class="conta">
             <h1>Contact Me</h1>
-            <div class="contct"><i class='bx bxl-whatsapp' style="font-size: 40px;" ></i><span>  +94 778500650</span></div>
-            <div class="contct"><i class='bx bxl-gmail'style="font-size: 40px;"></i><span>  ravipraveen2025@gmail.com</span></div>
-            <div class="contct"><i class='bx bxl-linkedin-square' style='color:#ffffff' ></i><span>  Ravi Praveen</span></div>
+            <div class="contct"><i class='bx bxl-whatsapp' style="font-size: 40px;" ></i> <a href="https://wa.me/94778500650" target="_blank" 
+     style="color: #ffffff; text-decoration: none; ">
+    +94 77 850 0650
+  </a></div>
+            <div class="contct"><i class='bx bxl-gmail'style="font-size: 40px;"></i> <a href="mailto:ravipraveen2025@gmail.com" style="color: #ffffff; text-decoration: none; ;">ravipraveen2025@gmail.com</a>
+            <div class="contct"><i class='bx bxl-linkedin-square' style='color:#ffffff' ></i> <a href="https://www.linkedin.com/in/ravi-praveen-7p2007277" target="_blank" style="color: #ffffff; text-decoration: none;">Ravi Praveen</div>
         </div>
        
 
@@ -344,9 +408,4 @@ h2 {
     </div>
     
 </body>
-
 </html>
-
-
-
-
