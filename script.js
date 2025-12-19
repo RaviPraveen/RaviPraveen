@@ -215,6 +215,6 @@ document.addEventListener('DOMContentLoaded', () => {
     });
 
     // Console message
-    console.log('%c👋 Hello! Thanks for checking out my portfolio!', 'color: #38bdf8; font-size: 16px; font-weight: bold;');
-    console.log('%cBuilt with passion and modern web technologies.', 'color: #94a3b8; font-size: 12px;');
+   alert('👋Hello! Thanks for checking out my portfolio!', 'color: #38bdf8; font-size: 16px; font-weight: bold;');
+    alert('Built with passion and modern web technologies.', 'color: #94a3b8; font-size: 12px;');
 });
