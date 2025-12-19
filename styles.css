@@ -235,9 +235,6 @@ nav.scrolled {
     display: flex;
     gap: 10px;
     align-items: center;
-    opacity: 0;
-    animation: fadeIn 0.5s ease-in-out forwards;
-
 }
 
 .nav-link {
@@ -286,6 +283,7 @@ nav.scrolled {
     cursor: pointer;
     padding: 5px;
     z-index: 1001;
+    position: relative;
 }
 
 .menu-toggle span {
@@ -821,6 +819,7 @@ nav.scrolled {
 .contact-item:nth-child(1) { animation-delay: 0.1s; }
 .contact-item:nth-child(2) { animation-delay: 0.2s; }
 .contact-item:nth-child(3) { animation-delay: 0.3s; }
+.contact-item:nth-child(4) { animation-delay: 0.4s; }
 
 .contact-item::before {
     content: '';
@@ -994,12 +993,17 @@ nav.scrolled {
         width: 100%;
         background: rgba(11, 14, 20, 0.98);
         backdrop-filter: blur(20px);
+        -webkit-backdrop-filter: blur(20px);
         flex-direction: column;
         padding: 30px 0;
         border-bottom: 1px solid rgba(255, 255, 255, 0.1);
         display: none;
         gap: 10px;
         box-shadow: var(--shadow-lg);
+        z-index: 999;
+        opacity: 1;
+        max-height: calc(100vh - 80px);
+        overflow-y: auto;
     }
 
     .nav-links.active {
