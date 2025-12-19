@@ -1,450 +1,313 @@
 <!DOCTYPE html>
 <html lang="en">
+
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Ravi Praveen</title>
-    <link rel="stylesheet" href="layout.css">
+    <title>Ravi Praveen | Web Developer</title>
+    <!-- Google Fonts -->
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Outfit:wght@300;400;600;700;800&display=swap" rel="stylesheet">
+    <!-- Icons -->
     <link href='https://unpkg.com/boxicons@2.1.4/css/boxicons.min.css' rel='stylesheet'>
-    <style>
-        * {
-    margin: 0;
-    padding: 0;
-    box-sizing: border-box;
-    background-color: black;
-}
-
-body {
-    color: white;
-    font-family: 'Arial', sans-serif;
-}
-
-/* Container wraps the whole page */
-.Container {
-    width: 100%;
-    height: 100vh;
-    padding-top: 80px; /* Space for fixed navbar */
-    text-align: center;
-    padding-left: 100px;
-}
-
-/* Fixed navbar */
-nav {
-    position: fixed;
-    top: 0;
-    left: 0;
-    width: 100%;
-    height: 80px;
-    background-color: black;
-    display: flex;
-    justify-content: center;
-    align-items: center;
-    gap: 30px;
-    z-index: 1000;
-    padding-left: 800px;
-}
-
-/* Nav links */
-nav a.active {
-    color: rgb(242, 244, 243);
-    text-decoration: none;
-    font-size: 18px;
-    background-color: rgb(13, 167, 233);
-    width: 100px;
-    text-align: center;
-    padding: 10px 0;
-    border-radius: 50px;
-    font-weight: bold;
-    transition: all 0.3s ease;
-}
-
-nav a.active:hover {
-    background-color: rgb(10, 130, 200);
-    cursor: pointer;
-    font-size: 20px;
-    box-shadow: 1px 2px 10px 2px rgb(141, 255, 99);
-    width: 110px;
-}
-
-html {
-    scroll-behavior: smooth;
-    scroll-padding-top: 100px; /* Ensures smooth scroll and avoids navbar overlap */
-}
-
-/* About Me Section */
-.Home {
-    margin-top: 80px; /* Create space for fixed navbar */
-    color: white;
-    text-align: center;
-    display: flex;
-    padding: 50px;
-    gap: 10px;
-    justify-content: center;
-}
-
-.Home img {
-    height: 500px;
-    width: auto;
-    border-radius: 15px;
-    box-shadow: 0 0 25px rgba(56, 56, 56, 0.7); /* Nice glowing effect */
-    transition: transform 0.3s ease, box-shadow 0.3s ease;
-}
-
-.Home img:hover {
-    transform: scale(1.05);
-    box-shadow: 0 0 25px rgb(29, 187, 255);
-}
-
-h1 {
-    font-size: 36px;
-    font-weight: bold;
-    color: rgb(13, 167, 233);
-    margin-top: 20px;
-    text-shadow: 2px 2px 5px rgba(0, 0, 0, 0.4);
-}
-
-.MY1 {
-    text-align: justify;
-    padding-left: 50px;
-    padding-right: 50px;
-    text-shadow: 2px 2px 5px rgba(0, 0, 0, 0.4);
-    display: flex;
-    flex-direction: column;
-    gap: 10px;
-    font-size: 20px;
-    border: 0.5px solid rgba(13, 167, 233, 0.548);
-    border-radius: 10px;
-}
-
-/* Skills Section */
-.Skills {
-    margin-top: 0px; /* Adjusted to avoid clipping */
-    color: white;
-    text-align: center;
-    display: flex;
-    padding: 0px;
-    justify-content: center;
-    flex-direction: column;
-    gap: 50px;
-    text-align: left;
-   
-}
-
-.skillsimg {
-    display: flex;
-    justify-content: center;
-    
-    gap: 50px;
-}
-
-.Skills img {
-    border-radius: 15px;
-    box-shadow: 0 0 25px rgba(254, 254, 254, 0.7); /* Nice glowing effect */
-    transition: transform 0.3s ease, box-shadow 0.3s ease;
-    padding: 10px;
-}
-
-/* Image and text on hover */
-.img1 {
-    height: 250px;
-    width: 250px;
-    border-radius: 15px;
-    box-shadow: 0 0 25px rgba(254, 254, 254, 0.7);
-    transition: transform 0.3s ease, box-shadow 0.3s ease;
-    padding: 10px;
-    display: flex;
-    flex-direction: column;
-    justify-content: center;
-    align-items: center;
-    gap: 10px;
-}
-
-h2 {
-    opacity: 0;
-    transition: opacity 0.3s ease;
-}
-
-.img1:hover img {
-    transform: scale(1.05);
-    box-shadow: 0 0 25px rgba(13, 167, 233, 1);
-}
-
-.img1:hover h2 {
-    opacity: 1;
-}
-.conta{
-    display: flex;
-    flex-direction: column;
-    gap: 10px;
-    margin-top: 50px;
-    padding-bottom: 50px;
-    text-align: left;
-    
-
-   
-}
-
-/* Contact Section */
-.contct {
-    color: rgb(255, 255, 255);
-    font-size: 40px;
-    margin-top: 50px;
-    
-}
-.Project{
-    display: flex;
-    flex-direction: column;
-    gap: 10px;
-    margin-top: 250px;
-    padding-bottom: 50px;
-    text-align: left;
-    gap: 50px;
-   
-}
-
-/* Contact Section */
-.Project {
-    color: rgb(255, 255, 255);
-    margin-top: 50px;
-    
-}
-.pro{
-    border-bottom: 0.5px solid rgb(128, 128, 128);
-    width: 1300px;
-    height: auto;
-    text-align:justify;
-    
-
-
-    
-}
-.pro >h3{
-    color: rgb(177, 255, 161);
-    font-size: 30px;
-    display: flex;
-
-}
-.pro >p{
-    color: rgb(255, 255, 255);
-    font-size: 20px;
-    display: flex;
-    padding-top: 20px;
-    padding-bottom:20px;
-}
-@media (max-width: 768px) {
-            nav {
-                flex-direction: column;
-                height: auto;
-                padding: 10px;
-                gap: 10px;
-            }
-
-            nav a.active {
-                width: 80%;
-                font-size: 0.9rem;
-            }
-
-            nav a.active:hover {
-                width: 85%;
-                font-size: 1rem;
-            }
-
-            .Home {
-                flex-direction: column;
-                padding: 10px;
-            }
-
-            .Home img {
-                max-height: 300px;
-            }
-
-            h1 {
-                font-size: 1.8rem;
-            }
-
-            .MY1 {
-                font-size: 1rem;
-                padding: 0 10px;
-            }
-
-            .skillsimg {
-                gap: 10px;
-            }
-
-            .img1 {
-                width: 120px;
-            }
-
-            .Skills img {
-                max-width: 100px;
-            }
-
-            .contct {
-                font-size: 1.2rem;
-            }
-
-            .contct i {
-                font-size: 1.5rem;
-            }
-        }
-
-        @media (max-width: 480px) {
-            nav a.active {
-                width: 90%;
-                font-size: 0.8rem;
-            }
-
-            .Home img {
-                max-height: 200px;
-            }
-
-            h1 {
-                font-size: 1.5rem;
-            }
-
-            .MY1 {
-                font-size: 0.9rem;
-            }
-
-            .img1 {
-                width: 100px;
-            }
-
-            .Skills img {
-                max-width: 80px;
-            }
-
-            .contct {
-                font-size: 1rem;
-            }
-
-            .contct i {
-                font-size: 1.2rem;
-            }
-        }
-        
-
-    </style>
+    <!-- Custom CSS -->
+    <link rel="stylesheet" href="styles.css">
 </head>
+
 <body>
-    <nav>
-        <a href="#Home" class="active">Home</a>
-        <a href="#Skills" class="active">Skills</a>
-        <a href="#Project" class="active">Project</a>
-        <a href="#ContactME" class="active">ContactMe</a>
-       </nav>
-    <div class="Container" id="Container">
-       
-       <section id="Home">
-       <div class="Home">
-        <div class="img">
-            <img src="WhatsApp Image 2025-04-24 at 21.37.48_14eac3e1.jpg" alt="Praveen">
-           </div> 
-            <div class="MY1">
-                <p>
-                    <h1>Hello! I'm <strong style="color: antiquewhite;"> Ravi Praveen</strong></h1> 
-                </p>
-                <p>Junior web developer from Sri Lanka.
-                    I specialize in building modern websites  Currently studying
-                    Software Engineering, At Esoft Metro Campus. I'm always exploring new technologies and improving my skills every day.</p>
-                   
-           </div>
-       </div>
-    </section>
+    <!-- Scroll Progress Bar -->
+    <div class="scroll-progress"></div>
 
-    <section id="Skills">
-        <div class="Skills">
-            <h1>Skills</h1>
-            <div class="skillsimg">
-                <div class="img1"><img src="https://th.bing.com/th/id/R.8c79ee1440c21bb5542844dd1388f034?rik=6gO2tCfpPivLNw&pid=ImgRaw&r=0" alt=""width="200px" height="200px"><h2>HTML</h2></div>
-                <div class="img1"><img src="https://th.bing.com/th/id/R.7c12764796349bfb505d4c5d73489c3d?rik=bM4AFS0UAqY17g&pid=ImgRaw&r=0" alt=""width="150px" height="200px"><h2>css</h2></div>
-                <div class="img1"><img src="https://logodownload.org/wp-content/uploads/2022/04/javascript-logo-0.png" alt=""width="200px" height="200px"><h2>JavaScrit</h2></div>
-                <div class="img1"><img src="https://th.bing.com/th/id/R.94821cfecbda59d19d109b8493b4c196?rik=kIMd73UgNA%2b0Tw&pid=ImgRaw&r=0" alt=""width="200px" height="200px" ><h2>MySQL</h2></div>
-            </div>
-            <div class="skillsimg">
-                  <div class="img1"><img src="https://logos-world.net/wp-content/uploads/2021/10/Python-Emblem.png  " alt="" width="200px" height="180px"><h2>Python</h2></div>
-                  <div class="img1"><img src="https://th.bing.com/th/id/R.0229c96fe32c55e1699ffe3365b5cdf9?rik=dEgj7BoLQeHo5g&pid=ImgRaw&r=0" alt="" width="200px" height="200px"><h2>PHP</h2></div>
-                  <div class="img1"><img src="https://th.bing.com/th/id/R.a51a3544c946000e37c5ad0045e051d5?rik=ehRYnsKxtbN6Xg&pid=ImgRaw&r=0" alt="" width="200px" height="200px"><h2>Bootstrap</h2"></div>
-                    <div class="img1"><img src="https://procoders.tech/wp-content/uploads/2023/05/png-clipart-c-programming-language-logo-microsoft-visual-studio-net-framework-javascript-icon-purple-logo-removebg-preview.png" alt="" width="200px" height="200px"><h2>C#</h2"></div>
-
-           
-            </div>
-              <div class="skillsimg">
-                  <div class="img1"><img src="https://i0.wp.com/kevinfream.blog/wp-content/uploads/2013/01/java.jpg  " alt="" width="200px" height="180px"><h2>Java</h2></div>
-                  <div class="img1"><img src="https://cdn.vectorstock.com/i/500p/37/17/figma-logo-square-outline-icon-app-vector-56623717.jpg  " alt="" width="200px" height="180px"><h2>Figma</h2></div>
-                  <div class="img1"><img src="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcQUZK5gi1clbPagXVx8PLkTK8qhlBCjve9oRw&s" alt="" width="200px" height="180px"><h2>Adobe XD</h2></div>
-                 
-            </div>
-              
-        </div>
-    </section>
-    <section id="Project">
-        <div class="Project">
-            <h1>Project</h1>
-            <di class="pro">  <h3>Leave Management System</h3>
-            <p>Developed a system to track employee leave balances, approvals, and summaries. </p></di>
-            <di class="pro">  <h3>Personal Portfolio Website</h3>
-            <p>Created a responsive portfolio website showcasing web development projects and designs. </p></di>
-            <di class="pro">  <h3>Movie Website UI/UX Design</h3>
-            <p> Designed interactive UI with modern aesthetics, focusing on user-friendly navigation and responsive layout.</p></di>
-            <di class="pro">  <h3>ETCP – Eco-Tourism Cloud Platform (Mobile Application UI/UX)</h3>
-            <p>ETCP (Eco-Tourism Cloud Platform) is a mobile application designed to promote sustainable and responsible tourism by
-                connecting eco-conscious travelers with verified eco-friendly tour providers, lodges, and activities. The platform aims 
-                to make eco-travel simple, enjoyable, and impactful by offering an all-in-one solution for discovering, booking, and managing 
-                eco-experiences.The app focuses on providing a user-friendly and nature-inspired UI/UX, combining modern design with a smooth and
-                intuitive interface. Users can explore various eco-destinations, book guided tours, reserve eco-lodges, and even hire certified eco-drivers—all 
-                within a few taps. </p></di>
-            <di class="pro">  <h3>Taxi Booking App UI/UX Design</h3>
-            <p>Developed UX wireframes and high-fidelity designs to improve booking and driver tracking experience.</p></di>
-            <di class="pro">  <h3>Fresh Grocers System(Desktop Web App UI/UX For Customers,CSR,Delivery agents)</h3>
-            <p>The Fresh Grocers System is a modern web-based grocery ordering and delivery platform designed to make online grocery shopping simple, 
-                fast, and convenient for customers. 
-                The system connects three main users — Customers, Delivery Agents, and Customer Service Representatives (CSR) — under one digital platform 
-                that ensures smooth and reliable operations from ordering to delivery.
-For customers, the system allows them to register, browse products by category, add items to their cart, and complete their orders through an easy checkout 
-                process. After placing an order, customers can track the delivery status in real time and receive SMS or email notifications. They can also manage
-                their profile, view order history, and provide feedback to improve the service experience.
-For delivery agents, the system provides a dedicated dashboard where they can log in to view assigned deliveries, accept or reject orders, update delivery progress,
-                and mark orders as completed. This ensures efficient route management and communication between agents and customers.
- For customer service representatives (CSRs), the system offers tools to manage customer orders, assign delivery agents, monitor delivery status, and handle complaints 
-                or feedback. CSRs can also generate reports on performance and customer satisfaction to help improve operations.
-The Fresh Grocers System has been designed with a user-friendly interface, responsive layout, and modern UI/UX principles using soft color themes and clear navigation.
-                It ensures that every user — whether a customer or staff member — can perform their tasks easily and effectively.
-Overall, this system demonstrates the use of structured design, database management, and process automation to create a professional and reliable e-commerce solution
-                tailored for the grocery industry. It highlights strong technical and design skills in front-end development, database handling, and user experience design, 
-                making it a valuable project for both academic and professional portfolios.</p></di>
-          
-
-        </div>
-       
-
-    </section>
-
-    <section id="ContactME">
-        <div class="conta">
-            <h1>Contact Me</h1>
-            <div class="contct"><i class='bx bxl-whatsapp' style="font-size: 40px;" ></i> <a href="https://wa.me/94778500650" target="_blank" 
-     style="color: #ffffff; text-decoration: none; ">
-    +94 77 850 0650
-  </a></div>
-            <div class="contct"><i class='bx bxl-gmail'style="font-size: 40px;"></i> <a href="mailto:ravipraveen2025@gmail.com" style="color: #ffffff; text-decoration: none; ;">ravipraveen2025@gmail.com</a>
-            <div class="contct"><i class='bx bxl-linkedin-square' style='color:#ffffff' ></i> <a href="https://www.linkedin.com/in/ravi-praveen-7p2007277" target="_blank" style="color: #ffffff; text-decoration: none;">Ravi Praveen</div>
-        </div>
-       
-
-    </section>
+    <!-- Animated Background -->
+    <div class="animated-bg">
+        <div class="gradient-orb orb-1"></div>
+        <div class="gradient-orb orb-2"></div>
+        <div class="gradient-orb orb-3"></div>
     </div>
-    
+
+    <nav>
+        <div class="logo">
+            <span class="logo-text">Ravi Praveen</span>
+            <span class="logo-accent">.</span>
+        </div>
+        <div class="menu-toggle" id="mobile-menu">
+            <span></span>
+            <span></span>
+            <span></span>
+        </div>
+        <div class="nav-links">
+            <a href="#Home" class="nav-link active" data-section="Home">Home</a>
+            <a href="#Skills" class="nav-link" data-section="Skills">Skills</a>
+            <a href="#Project" class="nav-link" data-section="Project">Projects</a>
+            <a href="#ContactME" class="nav-link" data-section="ContactME">Contact</a>
+        </div>
+    </nav>
+
+    <main>
+        <!-- Home Section -->
+        <section id="Home" class="container hero" data-section="Home">
+            <div class="hero-content">
+                <div class="hero-text">
+                    <div class="greeting">Hello, I'm</div>
+                    <h1><span class="name-gradient">Ravi Praveen</span></h1>
+                    <div class="typing-text">
+                        <span class="typing-cursor">|</span>
+                    </div>
+                    <p class="hero-description">A passionate <span class="highlight">Junior Web Developer</span> from Sri Lanka. I specialize in building modern, responsive websites and am constantly exploring new technologies to craft exceptional digital experiences.</p>
+                    <div class="hero-buttons">
+                        <a href="#ContactME" class="btn btn-primary">
+                            <span>Let's Talk</span>
+                            <i class='bx bx-right-arrow-alt'></i>
+                        </a>
+                        <a href="#Project" class="btn btn-secondary">
+                            <span>View Projects</span>
+                            <i class='bx bx-code-alt'></i>
+                        </a>
+                    </div>
+                    <div class="social-links">
+                        <a href="https://www.linkedin.com/in/ravi-praveen-7p2007277" target="_blank" class="social-link" aria-label="LinkedIn">
+                            <i class='bx bxl-linkedin-square'></i>
+                        </a>
+                        <a href="mailto:ravipraveen2025@gmail.com" class="social-link" aria-label="Email">
+                            <i class='bx bxl-gmail'></i>
+                        </a>
+                        <a href="https://wa.me/94778500650" target="_blank" class="social-link" aria-label="WhatsApp">
+                            <i class='bx bxl-whatsapp'></i>
+                        </a>
+                        <a href="https://github.com/RaviPraveen" target="_blank" class="social-link" aria-label="WhatsApp">
+                            <i class='bx bxl-github'></i>
+                        </a>
+                    </div>
+                </div>
+                <div class="hero-img">
+                    <div class="img-wrapper">
+                        <div class="img-glow"></div>
+                        <img src="WhatsApp Image 2025-04-24 at 21.37.48_14eac3e1.jpg" alt="Ravi Praveen">
+                        <div class="img-border"></div>
+                    </div>
+                    <div class="floating-elements">
+                        <div class="float-element float-1">HTML</div>
+                        <div class="float-element float-2">CSS</div>
+                        <div class="float-element float-3">JS</div>
+                        <div class="float-element float-4">UI/UX</div>
+                        <div class="float-element float-5">Figma</div>
+                    </div>
+                </div>
+            </div>
+        </section>
+
+        <!-- Skills Section -->
+        <section id="Skills" class="container" data-section="Skills">
+            <div class="section-header">
+                
+                <h2 class="section-title">My Technical Skills</h2>
+                <p class="section-subtitle">Technologies I work with to bring ideas to life</p>
+            </div>
+            <div class="skills-grid">
+                <!-- Skill Items -->
+                <div class="skill-card">
+                    <img src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/html5/html5-original.svg" alt="HTML">
+                    <h3>HTML5</h3>
+                </div>
+                <div class="skill-card">
+                    <img src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/css3/css3-original.svg" alt="CSS">
+                    <h3>CSS3</h3>
+                </div>
+                <div class="skill-card">
+                    <img src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/javascript/javascript-original.svg"
+                        alt="JavaScript">
+                    <h3>JavaScript</h3>
+                </div>
+                <div class="skill-card">
+                    <img src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/mysql/mysql-original.svg" alt="MySQL">
+                    <h3>MySQL</h3>
+                </div>
+                <div class="skill-card">
+                    <img src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/python/python-original.svg"
+                        alt="Python">
+                    <h3>Python</h3>
+                </div>
+                <div class="skill-card">
+                    <img src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/php/php-original.svg" alt="PHP">
+                    <h3>PHP</h3>
+                </div>
+                <div class="skill-card">
+                    <img src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/bootstrap/bootstrap-original.svg"
+                        alt="Bootstrap">
+                    <h3>Bootstrap</h3>
+                </div>
+                <div class="skill-card">
+                    <img src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/csharp/csharp-original.svg" alt="C#">
+                    <h3>C#</h3>
+                </div>
+                <div class="skill-card">
+                    <img src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/java/java-original.svg" alt="Java">
+                    <h3>Java</h3>
+                </div>
+                <div class="skill-card">
+                    <img src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/figma/figma-original.svg" alt="Figma">
+                    <h3>Figma</h3>
+                </div>
+            </div>
+        </section>
+
+        <!-- Projects Section -->
+        <section id="Project" class="container" data-section="Project">
+            <div class="section-header">
+                
+                <h2 class="section-title">Featured Projects</h2>
+                <p class="section-subtitle">A collection of my recent work and designs</p>
+            </div>
+            <div class="projects-container">
+                <article class="project-card">
+                    <div class="project-icon">
+                        <i class='bx bx-calendar-check'></i>
+                    </div>
+                    <div class="project-content">
+                        <h3>Leave Management System</h3>
+                        <p>Developed a comprehensive system to track employee leave balances, approvals, and summaries efficiently.</p>
+                        <div class="project-tags">
+                            <span class="tag">c#</span>
+                            <span class="tag">UI/UX</span>
+                    
+                        </div>
+                    </div>
+                </article>
+                <article class="project-card">
+                    <div class="project-icon">
+                        <i class='bx bx-code-alt'></i>
+                    </div>
+                    <div class="project-content">
+                        <h3>Personal Portfolio Website</h3>
+                        <p>Designed and built a responsive portfolio website showcasing my web development projects and design skills.</p>
+                        <div class="project-tags">
+                            <span class="tag">HTML</span>
+                            <span class="tag">CSS</span>
+                            <span class="tag">JavaScript</span>
+                            <span class="tag">UI/UX</span>
+                        </div>
+                    </div>
+                </article>
+                <article class="project-card">
+                    <div class="project-icon">
+                        <i class='bx bx-movie-play'></i>
+                    </div>
+                    <div class="project-content">
+                        <h3>Movie Website UI/UX Design</h3>
+                        <p>Crafted an interactive user interface with modern aesthetics, focusing on seamless user navigation and responsiveness.</p>
+                        <div class="project-tags">
+                            <span class="tag">Figma</span>
+                            <span class="tag">Prototyping</span>
+                            <span class="tag">UI/UX</span>
+                            <span class="tag">Wireframing</span>
+                        </div>
+                    </div>
+                </article>
+                <article class="project-card">
+                    <div class="project-icon">
+                        <i class='bx bx-trip'></i>
+                    </div>
+                    <div class="project-content">
+                        <h3>Travel App UI/UX Design</h3>
+                        <p>Created eco-friendly and intuitive user experience flows for booking and itinerary management using Figma prototypes.</p>
+                        <div class="project-tags">
+                            <span class="tag">Figma</span>
+                            <span class="tag">Prototyping</span>
+                            <span class="tag">UI/UX</span>
+                            <span class="tag">Wireframing</span>
+                        </div>
+                    </div>
+                </article>
+                <article class="project-card">
+                    <div class="project-icon">
+                        <i class='bx bx-taxi'></i>
+                    </div>
+                    <div class="project-content">
+                        <h3>Taxi Booking App UI/UX Design</h3>
+                        <p>Developed detailed wireframes and high-fidelity designs to enhance the booking and driver tracking experience.</p>
+                        <div class="project-tags">
+                            <span class="tag">Figma</span>
+                            <span class="tag">Prototyping</span>
+                            <span class="tag">UI/UX</span>
+                            <span class="tag">Wireframing</span>
+                        </div>
+                    </div>
+                </article>
+                <article class="project-card">
+                    <div class="project-icon">
+                        <i class='bx bx-store'></i>
+                    </div>
+                    <div class="project-content">
+                        <h3>Online Grocery Store UI/UX Design</h3>
+                        <p>Designed a visually appealing and user-friendly interface for an online grocery store platform.</p>
+                        <div class="project-tags">
+                            <span class="tag">Figma</span>
+                            <span class="tag">Prototyping</span>
+                            <span class="tag">UI/UX</span>
+                            <span class="tag">Wireframing</span>
+                        </div>
+                    </div>
+                </article>
+            </div>
+        </section>
+
+        <!-- Contact Section -->
+        <section id="ContactME" class="container" data-section="ContactME">
+            <div class="section-header">
+                
+                <h2 class="section-title">Get In Touch</h2>
+                <p class="section-subtitle">Let's collaborate and bring your ideas to life</p>
+            </div>
+            <div class="contact-wrapper">
+                <a href="https://wa.me/94778500650" target="_blank" class="contact-item">
+                    <div class="contact-icon whatsapp">
+                        <i class='bx bxl-whatsapp'></i>
+                    </div>
+                    <div class="contact-info">
+                        <span class="contact-label">WhatsApp</span>
+                        <span class="contact-value">+94 77 850 0650</span>
+                    </div>
+                    <i class='bx bx-right-arrow-alt contact-arrow'></i>
+                </a>
+                <a href="mailto:ravipraveen2025@gmail.com" class="contact-item">
+                    <div class="contact-icon email">
+                        <i class='bx bxl-gmail'></i>
+                    </div>
+                    <div class="contact-info">
+                        <span class="contact-label">Email</span>
+                        <span class="contact-value">ravipraveen2025@gmail.com</span>
+                    </div>
+                    <i class='bx bx-right-arrow-alt contact-arrow'></i>
+                </a>
+                <a href="https://www.linkedin.com/in/ravi-praveen-7p2007277" target="_blank" class="contact-item">
+                    <div class="contact-icon linkedin">
+                        <i class='bx bxl-linkedin-square'></i>
+                    </div>
+                    <div class="contact-info">
+                        <span class="contact-label">LinkedIn</span>
+                        <span class="contact-value">Connect with me</span>
+                    </div>
+                    <i class='bx bx-right-arrow-alt contact-arrow'></i>
+                </a>
+                <a href="https://www.linkedin.com/in/ravi-praveen-7p2007277" target="_blank" class="contact-item">
+                    <div class="contact-icon github">
+                        <i class='bx bxl-github'></i>
+                    </div>
+                    <div class="contact-info">
+                        <span class="contact-label">github</span>
+                        <span class="contact-value">Follow me</span>
+                    </div>
+                    <i class='bx bx-right-arrow-alt contact-arrow'></i>
+                </a>
+            </div>
+            </div>
+        </section>
+    </main>
+
+
+
+    <script src="script.js"></script>
 </body>
+
 </html>
-
-
-
-
-
-
-
-
-
-
-
