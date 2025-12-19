@@ -362,7 +362,7 @@ nav.scrolled {
 }
 
 .greeting {
-    font-size: 1.5rem;
+    font-size: 2.5rem;
     color: var(--text-muted);
     margin-bottom: 10px;
     font-weight: 400;
@@ -1183,4 +1183,8 @@ nav.scrolled {
 ::-moz-selection {
     background: var(--primary-color);
     color: var(--bg-color);
+}
+#username{
+    color: rgb(124, 255, 124);
+    font-size: 34px;
 }
