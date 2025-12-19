@@ -216,6 +216,6 @@ document.addEventListener('DOMContentLoaded', () => {
 
     // Console message
    
-        let user = prompt("enter your name")
+        let user = prompt("Enter your name")
         document.getElementById("username").innerHTML = user
 });
