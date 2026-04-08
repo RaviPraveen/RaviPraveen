@@ -1,0 +1,516 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Ravi Praveen | Web Developer</title>
+    <!-- Google Fonts -->
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Outfit:wght@300;400;600;700;800&display=swap" rel="stylesheet">
+    <!-- Icons -->
+    <link href='https://unpkg.com/boxicons@2.1.4/css/boxicons.min.css' rel='stylesheet'>
+    <!-- Custom CSS -->
+    <link rel="stylesheet" href="styles.css">
+</head>
+
+<body>
+    <!-- Scroll Progress Bar -->
+    <div class="scroll-progress"></div>
+
+    <!-- Animated Background -->
+    <div class="animated-bg">
+        <div class="gradient-orb orb-1"></div>
+        <div class="gradient-orb orb-2"></div>
+        <div class="gradient-orb orb-3"></div>
+    </div>
+
+    <nav>
+        <div class="logo">
+            <span class="logo-text">Ravi Praveen</span>
+            <span class="logo-accent">.</span>
+        </div>
+        <div class="menu-toggle" id="mobile-menu">
+            <span></span>
+            <span></span>
+            <span></span>
+        </div>
+        <div class="nav-links">
+            <a href="#Home" class="nav-link active" data-section="Home">Home</a>
+            <a href="#Skills" class="nav-link" data-section="Skills">Skills</a>
+            <a href="#Project" class="nav-link" data-section="Project">Projects</a>
+            <a href="#ContactME" class="nav-link" data-section="ContactME">Contact</a>
+        </div>
+    </nav>
+
+    <main>
+        <!-- Home Section -->
+        <section id="Home" class="container hero" data-section="Home">
+            <div class="hero-content">
+                <div class="hero-text">
+                     <div class="greeting">Hello <span id="username"></span>, I'm</div>
+                    <h1><span class="name-gradient">Ravi Praveen</span></h1>
+                    <div class="typing-text">
+                        <span class="typing-cursor">|</span>
+                    </div>
+                    <p class="hero-description">A passionate <span class="highlight">Junior Full Stack Developer</span> from Sri Lanka. I specialize in building modern responsive Web and Mobile apps,Desktop system i am constantly exploring new technologies to craft exceptional digital experiences. 
+                        <br><br><span class="highlight">Education</span><br><ul> <li>Bsc(Hons)  in computer science at kingston university London</li><br><li>HND in Software Engineering at  ESOFT Metro Campus</li>  <br> <li>Diploma in information technology at IDM eastern campus</li></p></ul>
+                    
+                    <div class="hero-buttons">
+                        <a href="#ContactME" class="btn btn-primary">
+                            <span>Let's Talk</span>
+                            <i class='bx bx-right-arrow-alt'></i>
+                        </a>
+                        <a href="#Project" class="btn btn-secondary">
+                            <span>View Projects</span>
+                            <i class='bx bx-code-alt'></i>
+                        </a>
+                    </div>
+                    <div class="social-links">
+                        <a href="https://www.linkedin.com/in/ravi-praveen-7p2007277" target="_blank" class="social-link" aria-label="LinkedIn">
+                            <i class='bx bxl-linkedin-square'></i>
+                        </a>
+                        <a href="mailto:ravipraveen2025@gmail.com" class="social-link" aria-label="Email">
+                            <i class='bx bxl-gmail'></i>
+                        </a>
+                        <a href="https://wa.me/94778500650" target="_blank" class="social-link" aria-label="WhatsApp">
+                            <i class='bx bxl-whatsapp'></i>
+                        </a>
+                        <a href="https://github.com/RaviPraveen" target="_blank" class="social-link" aria-label="WhatsApp">
+                            <i class='bx bxl-github'></i>
+                        </a>
+                    </div>
+                </div>
+                <div class="hero-img">
+                    <div class="img-wrapper">
+                        <div class="img-glow"></div>
+                        <img src="WhatsApp Image 2026-02-16 at 9.54.49 PM.jpeg" alt="Ravi Praveen">
+                        <div class="img-border"></div>
+                    </div>
+                    <div class="floating-elements">
+                        <div class="float-element float-1">HTML</div>
+                        <div class="float-element float-2">CSS</div>
+                        <div class="float-element float-3">JS</div>
+                        <div class="float-element float-4">UI/UX</div>
+                        <div class="float-element float-5">Figma</div>
+                    </div>
+                </div>
+            </div>
+        </section>
+
+        <!-- Skills Section -->
+        <section id="Skills" class="container" data-section="Skills">
+            <div class="section-header">
+                
+                <h2 class="section-title">My Technical Skills</h2>
+                <p class="section-subtitle">Technologies I work with to bring ideas to life</p>
+            </div>
+            <div class="skills-grid">
+                <!-- Skill Items -->
+                <div class="skill-card">
+                    <img src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/html5/html5-original.svg" alt="HTML">
+                    <h3>HTML5</h3>
+                </div>
+                <div class="skill-card">
+                    <img src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/css3/css3-original.svg" alt="CSS">
+                    <h3>CSS3</h3>
+                </div>
+                <div class="skill-card">
+                    <img src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/javascript/javascript-original.svg"
+                        alt="JavaScript">
+                    <h3>JavaScript</h3>
+                </div>
+                <div class="skill-card">
+                    <img src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/react/react-original.svg"
+                        alt="react">
+                    <h3>React</h3>
+                </div>
+                <div class="skill-card">
+                    <img src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/mysql/mysql-original.svg" alt="MySQL">
+                    <h3>MySQL</h3>
+                </div>
+                <div class="skill-card">
+                    <img src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/python/python-original.svg"
+                        alt="Python">
+                    <h3>Python</h3>
+                </div>
+                <div class="skill-card">
+                    <img src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/php/php-original.svg" alt="PHP">
+                    <h3>PHP</h3>
+                </div>
+                <div class="skill-card">
+                    <img src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/bootstrap/bootstrap-original.svg"
+                        alt="Bootstrap">
+                    <h3>Bootstrap</h3>
+                </div>
+                <div class="skill-card">
+                    <img src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/csharp/csharp-original.svg" alt="C#">
+                    <h3>C#</h3>
+                </div>
+                <div class="skill-card">
+                    <img src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/java/java-original.svg" alt="Java">
+                    <h3>Java</h3>
+                </div>
+                <div class="skill-card">
+                    <img src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/figma/figma-original.svg" alt="Figma">
+                    <h3>Figma</h3>
+                </div>
+            </div>
+            <div class="section-header">
+                
+                <h2 class="section-title">AI Tool use</h2>
+                <p class="section-subtitle">AI tool help me to do my work 10x faster</p>
+            </div>
+            <div class="AI-grid">
+                <!-- AI Tools -->
+                <div class="AI-card">
+                    <img src="https://ai-bot.cn/wp-content/uploads/2025/11/Google-Antigravity-logo.png" alt="antigravity " >
+                    <h3>Antigravity </h3>
+                </div>
+                <div class="AI-card">
+                    <img src="https://cursor.sh/assets/cursor.png" alt="Cursor" 
+                    onerror="this.onerror=null; this.src='https://www.cursor.sh/favicon.ico';">
+                    <h3>Cursor</h3>
+                </div>
+                <div class="AI-card">
+                   <img src="OIP.jpg" alt="chatgpt"/>
+                    <h3>Claude</h3>
+                </div>
+                <div class="AI-card">
+                   <img src="https://img.icons8.com/ios/50/chatgpt.png" alt="chatgpt"/>
+                    <h3>ChatGPT</h3>
+                </div>
+                <div class="AI-card">
+                    <img src="https://github.githubassets.com/images/modules/logos_page/GitHub-Mark.png" alt="GitHub Copilot" 
+                         onerror="this.onerror=null; this.src='https://cdn.jsdelivr.net/npm/simple-icons@v9/icons/github.svg';">
+                    <h3>GitHub Copilot</h3>
+                </div>
+                <div class="AI-card">
+                    <img src="OIP (1).jpg" alt="GitHub Copilot" 
+                         onerror="this.onerror=null; this.src='https://cdn.jsdelivr.net/npm/simple-icons@v9/icons/github.svg';">
+                    <h3>KIRO</h3>
+                </div>
+                <div class="AI-card">
+                    <img src="Screenshot 2026-04-08 225246.png" alt="GitHub Copilot" 
+                         onerror="this.onerror=null; this.src='https://cdn.jsdelivr.net/npm/simple-icons@v9/icons/github.svg';">
+                    <h3>Codex</h3>
+                </div>
+                <div class="AI-card">
+                    <img src="https://www.gstatic.com/lamda/images/gemini_sparkle_v002_d4735304ff6292a690345.svg" alt="Gemini" 
+                         onerror="this.onerror=null; this.src='https://fonts.gstatic.com/s/i/productlogos/googleg/v6/24px.svg';">
+                    <h3>Gemini</h3>
+                </div>
+                <div class="AI-card">
+                    <img src="https://www.lovable.dev/logo.png" alt="Lovable" 
+                         onerror="this.onerror=null; this.src='https://www.lovable.dev/favicon.ico';">
+                    <h3>Lovable</h3>
+                </div>
+                <div class="AI-card">
+                    <img src="https://miro.medium.com/v2/resize:fit:1200/0*_x9xhkOzkw3ikYci.jpg" alt="Bolt" 
+                         onerror="this.onerror=null; this.src='https://www.bolt.new/favicon.ico';">
+                    <h3>Bolt</h3>
+                </div>
+                <div class="AI-card">
+                    <img src="https://images.g2crowd.com/uploads/product/image/social_landscape/social_landscape_08a6e0bc6298004faa710126391e7433/builder-io.png" 
+                         onerror="this.onerror=null; this.src='https://cdn.jsdelivr.net/npm/simple-icons@v9/icons/builderio.svg';">
+                    <h3>Builder.io</h3>
+                </div>
+                <div class="AI-card">
+                    <img src="https://cdn.freelogovectors.net/wp-content/uploads/2025/06/perplexity-logo-icon-freelogovectors.net_.png" alt="Perplexity" 
+                         onerror="this.onerror=null; this.src='https://www.perplexity.ai/favicon.ico';">
+                    <h3>Perplexity</h3>
+                </div>
+                <div class="AI-card">
+                    <img src="https://tse2.mm.bing.net/th/id/OIP.puTtIsfpfyhZ6RSgTSecswHaHa?cb=ucfimg2&ucfimg=1&rs=1&pid=ImgDetMain&o=7&rm=3" alt="Grok" 
+                         onerror="this.onerror=null; this.src='https://cdn.jsdelivr.net/npm/simple-icons@v9/icons/x.svg';">
+                    <h3>Grok</h3>
+                </div>
+                <div class="AI-card">
+                    <img src="https://www.codeium.com/icon.png" alt="Codeium" 
+                         onerror="this.onerror=null; this.src='https://www.codeium.com/favicon.ico';">
+                    <h3>Codeium</h3>
+                </div>
+                <div class="AI-card">
+                    <img src="https://www.tabnine.com/favicon-32x32.png" alt="Tabnine" 
+                         onerror="this.onerror=null; this.src='https://www.tabnine.com/favicon.ico';">
+                    <h3>Tabnine</h3>
+                </div>
+                <div class="AI-card">
+                    <img src="https://d2908q01vomqb2.cloudfront.net/da4b9237bacccdf19c0760cab7aec4a8359010b0/2023/10/12/CodeWhisperer-icon.png" alt="CodeWhisperer" 
+                         onerror="this.onerror=null; this.src='https://cdn.jsdelivr.net/npm/simple-icons@v9/icons/amazonaws.svg';">
+                    <h3>CodeWhisperer</h3>
+                </div>
+                <div class="AI-card">
+                    <img src="https://cdn.sanity.io/images/bj34pdbp/migration/7d06c37d899d8ba6419b2a9484dfe44586e70081-794x872.png" alt="Replit AI" >
+                    <h3>Replit AI</h3>
+                </div>
+                <div class="AI-card">
+                    <img src="https://sourcegraph.com/favicon.ico" alt="Sourcegraph Cody" >
+                    <h3>Sourcegraph Cody</h3>
+                </div>
+               
+            </div>
+        </section>
+
+        <!-- Projects Section -->
+        <section id="Project" class="container" data-section="Project">
+            <div class="section-header">
+                
+                <h2 class="section-title">Featured Projects</h2>
+                <p class="section-subtitle">A collection of my recent work and designs</p>
+            </div>
+            <div class="projects-container">
+                <article class="project-card">
+                    <div class="project-icon">
+                        <i class='bx bx-money'></i>
+                    </div>
+                    <div class="project-content">
+                        <h3>Moeny Pilot</h3>
+                        <p>MoneyPilot is a  personal finance app built as  PWA to help users manage cash, cards, income, expenses, and transfers in one place. It uses local storage for fast, simple money tracking  updates, reports.</p>
+                        <div class="project-tags">
+                            <span class="tag">React Js</span>
+                            <span class="tag">HTML5</span>
+                            <span class="tag">CSS3</span>
+                            <span class="tag">JavaScript</span>
+                        </div>
+                        <div class="View"><a href="https://money-pilot-psi.vercel.app/" target="_blank" class="Documents-btn">
+  <span class="folderContainer">
+    <svg
+      class="fileBack"
+      width="146"
+      height="113"
+      viewBox="0 0 146 113"
+      fill="none"
+      xmlns="http://www.w3.org/2000/svg"
+    >
+      <path
+        d="M0 4C0 1.79086 1.79086 0 4 0H50.3802C51.8285 0 53.2056 0.627965 54.1553 1.72142L64.3303 13.4371C65.2799 14.5306 66.657 15.1585 68.1053 15.1585H141.509C143.718 15.1585 145.509 16.9494 145.509 19.1585V109C145.509 111.209 143.718 113 141.509 113H3.99999C1.79085 113 0 111.209 0 109V4Z"
+        fill="url(#paint0_linear_117_4)"
+      ></path>
+      <defs>
+        <linearGradient
+          id="paint0_linear_117_4"
+          x1="0"
+          y1="0"
+          x2="72.93"
+          y2="95.4804"
+          gradientUnits="userSpaceOnUse"
+        >
+          <stop stop-color="#8F88C2"></stop>
+          <stop offset="1" stop-color="#5C52A2"></stop>
+        </linearGradient>
+      </defs>
+    </svg>
+    <svg
+      class="filePage"
+      width="88"
+      height="99"
+      viewBox="0 0 88 99"
+      fill="none"
+      xmlns="http://www.w3.org/2000/svg"
+    >
+      <rect width="88" height="99" fill="url(#paint0_linear_117_6)"></rect>
+      <defs>
+        <linearGradient
+          id="paint0_linear_117_6"
+          x1="0"
+          y1="0"
+          x2="81"
+          y2="160.5"
+          gradientUnits="userSpaceOnUse"
+        >
+          <stop stop-color="white"></stop>
+          <stop offset="1" stop-color="#686868"></stop>
+        </linearGradient>
+      </defs>
+    </svg>
+
+    <svg
+      class="fileFront"
+      width="160"
+      height="79"
+      viewBox="0 0 160 79"
+      fill="none"
+      xmlns="http://www.w3.org/2000/svg"
+    >
+      <path
+        d="M0.29306 12.2478C0.133905 9.38186 2.41499 6.97059 5.28537 6.97059H30.419H58.1902C59.5751 6.97059 60.9288 6.55982 62.0802 5.79025L68.977 1.18034C70.1283 0.410771 71.482 0 72.8669 0H77H155.462C157.87 0 159.733 2.1129 159.43 4.50232L150.443 75.5023C150.19 77.5013 148.489 79 146.474 79H7.78403C5.66106 79 3.9079 77.3415 3.79019 75.2218L0.29306 12.2478Z"
+        fill="url(#paint0_linear_117_5)"
+      ></path>
+      <defs>
+        <linearGradient
+          id="paint0_linear_117_5"
+          x1="38.7619"
+          y1="8.71323"
+          x2="66.9106"
+          y2="82.8317"
+          gradientUnits="userSpaceOnUse"
+        >
+          <stop stop-color="#C3BBFF"></stop>
+          <stop offset="1" stop-color="#51469A"></stop>
+        </linearGradient>
+      </defs>
+    </svg>
+  </span>
+        <p class="text">View</p>
+
+</a></div>
+                    </div>
+                </article>
+                <article class="project-card">
+                    <div class="project-icon">
+                        <i class='bx bx-calendar-check'></i>
+                    </div>
+                    <div class="project-content">
+                        <h3>Leave Management System</h3>
+                        <p>Developed a comprehensive system to track employee leave balances, approvals, and summaries efficiently.</p>
+                        <div class="project-tags">
+                            <span class="tag">c#</span>
+                            <span class="tag">UI/UX</span>
+                    
+                        </div>
+                    </div>
+                </article>
+                <article class="project-card">
+                    <div class="project-icon">
+                        <i class='bx bx-code-alt'></i>
+                    </div>
+                    <div class="project-content">
+                        <h3>Personal Portfolio Website</h3>
+                        <p>Designed and built a responsive portfolio website showcasing my web development projects and design skills.</p>
+                        <div class="project-tags">
+                            <span class="tag">HTML</span>
+                            <span class="tag">CSS</span>
+                            <span class="tag">JavaScript</span>
+                            <span class="tag">UI/UX</span>
+                        </div>
+                    </div>
+                </article>
+                <article class="project-card">
+                    <div class="project-icon">
+                        <i class='bx bx-movie-play'></i>
+                    </div>
+                    <div class="project-content">
+                        <h3>Movie Website UI/UX Design</h3>
+                        <p>Crafted an interactive user interface with modern aesthetics, focusing on seamless user navigation and responsiveness.</p>
+                        <div class="project-tags">
+                            <span class="tag">Figma</span>
+                            <span class="tag">Prototyping</span>
+                            <span class="tag">UI/UX</span>
+                            <span class="tag">Wireframing</span>
+                        </div>
+                    </div>
+                </article>
+                <article class="project-card">
+                    <div class="project-icon">
+                        <i class='bx bx-trip'></i>
+                    </div>
+                    <div class="project-content">
+                        <h3>Travel App UI/UX Design</h3>
+                        <p>Created eco-friendly and intuitive user experience flows for booking and itinerary management using Figma prototypes.</p>
+                        <div class="project-tags">
+                            <span class="tag">Figma</span>
+                            <span class="tag">Prototyping</span>
+                            <span class="tag">UI/UX</span>
+                            <span class="tag">Wireframing</span>
+                        </div>
+                    </div>
+                </article>
+                <article class="project-card">
+                    <div class="project-icon">
+                        <i class='bx bx-taxi'></i>
+                    </div>
+                    <div class="project-content">
+                        <h3>Taxi Booking App UI/UX Design</h3>
+                        <p>Developed detailed wireframes and high-fidelity designs to enhance the booking and driver tracking experience.</p>
+                        <div class="project-tags">
+                            <span class="tag">Figma</span>
+                            <span class="tag">Prototyping</span>
+                            <span class="tag">UI/UX</span>
+                            <span class="tag">Wireframing</span>
+                        </div>
+                    </div>
+                </article>
+                <article class="project-card">
+                    <div class="project-icon">
+                        <i class='bx bx-store'></i>
+                    </div>
+                    <div class="project-content">
+                        <h3>Online Grocery Store UI/UX Design</h3>
+                        <p>Designed a visually appealing and user-friendly interface for an online grocery store platform.</p>
+                        <div class="project-tags">
+                            <span class="tag">Figma</span>
+                            <span class="tag">Prototyping</span>
+                            <span class="tag">UI/UX</span>
+                            <span class="tag">Wireframing</span>
+                        </div>
+                    </div>
+                </article>
+            </div>
+        </section>
+
+        <!-- Contact Section -->
+        <section id="ContactME" class="container" data-section="ContactME">
+            <div class="section-header">
+                
+                <h2 class="section-title">Get In Touch</h2>
+                <p class="section-subtitle">Let's collaborate and bring your ideas to life</p>
+            </div>
+            <div class="contact-wrapper">
+                <a href="https://wa.me/94778500650" target="_blank" class="contact-item">
+                    <div class="contact-icon whatsapp">
+                        <i class='bx bxl-whatsapp'></i>
+                    </div>
+                    <div class="contact-info">
+                        <span class="contact-label">WhatsApp</span>
+                        <span class="contact-value">+94 77 850 0650</span>
+                    </div>
+                    <i class='bx bx-right-arrow-alt contact-arrow'></i>
+                </a>
+                <a href="mailto:ravipraveen2025@gmail.com" class="contact-item">
+                    <div class="contact-icon email">
+                        <i class='bx bxl-gmail'></i>
+                    </div>
+                    <div class="contact-info">
+                        <span class="contact-label">Email</span>
+                        <span class="contact-value">ravipraveen2025@gmail.com</span>
+                    </div>
+                    <i class='bx bx-right-arrow-alt contact-arrow'></i>
+                </a>
+                <a href="https://www.linkedin.com/in/ravi-praveen-7p2007277" target="_blank" class="contact-item">
+                    <div class="contact-icon linkedin">
+                        <i class='bx bxl-linkedin-square'></i>
+                    </div>
+                    <div class="contact-info">
+                        <span class="contact-label">LinkedIn</span>
+                        <span class="contact-value">Connect with me</span>
+                    </div>
+                    <i class='bx bx-right-arrow-alt contact-arrow'></i>
+                </a>
+                <a href="https://github.com/RaviPraveen" target="_blank" class="contact-item">
+                    <div class="contact-icon github">
+                        <i class='bx bxl-github'></i>
+                    </div>
+                    <div class="contact-info">
+                        <span class="contact-label">github</span>
+                        <span class="contact-value">Follow me</span>
+                    </div>
+                    <i class='bx bx-right-arrow-alt contact-arrow'></i>
+                </a>
+            </div>
+            </div>
+        </section>
+    </main>
+
+
+
+    <script src="script.js"></script>
+</body>
+
+</html>
+
+
+
+
+
