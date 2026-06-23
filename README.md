@@ -1,227 +1,81 @@
-# Make Your GitHub Profile Stand Out! 🚀
-
-## Step 1: Create Your Profile Repository
-
-1. Create a new repository with the same name as your GitHub username (example: if your username is `dev-jane-doe`, repository should be `dev-jane-doe`)
-2. Clone it to your computer
-3. Create these folders:
-   ```
-   .github/
-     workflows/
-   ```
-
-## Step 2: Set Up the Workflows
-
-### Blog Posts Workflow
-Create `.github/workflows/blog-post-workflow.yml`:
-```yaml
-name: Latest blog post workflow
-on:
-  schedule:
-    - cron: '0 * * * *'
-  workflow_dispatch:
-
-jobs:
-  update-readme-with-blog:
-    name: Update README with latest blog posts
-    runs-on: ubuntu-latest
-    steps:
-      - uses: actions/checkout@v2
-      - uses: gautamkrishnar/blog-post-workflow@master
-        with:
-          feed_list: "https://your-blog-url.com/rss.xml"
-          max_post_count: 4
-```
-
-### GitHub Metrics Workflow
-Create `.github/workflows/metrics.yml`:
-```yaml
-name: Metrics
-on:
-  schedule: [{ cron: "0 0 * * *" }]
-  workflow_dispatch:
-  push: { branches: ["master", "main"] }
-jobs:
-  github-metrics:
-    runs-on: ubuntu-latest
-    permissions:
-      contents: write
-    steps:
-      - uses: lowlighter/metrics@latest
-        with:
-          token: ${{ secrets.METRICS_TOKEN }}
-
-          # Options
-          user: your-username
-          template: classic
-          base: header, activity, repositories
-          config_timezone: Asia/Kolkata
-
-          # Languages plugin
-          plugin_languages: yes
-          plugin_languages_limit: 8
-          plugin_languages_colors: github
-          plugin_languages_sections: most-used
-          plugin_languages_threshold: 2%
-
-          # Activity plugin
-          plugin_activity: yes
-          plugin_activity_limit: 5
-          plugin_activity_days: 14
-          plugin_activity_filter: all
-
-          # Notable contributions
-          plugin_notable: yes
-          plugin_notable_repositories: yes
-
-          # Lines of code changed
-          plugin_lines: yes
-          plugin_lines_history_limit: 1
-          plugin_lines_repositories_limit: 4
-          plugin_lines_sections: base
-```
-
-## Step 3: Create Your README
-
-Create a new file called `README.md`:
-
-```markdown
-<div align="center">
-  <img src="https://capsule-render.vercel.app/api?type=waving&color=gradient&height=200&section=header&text=Jane%20Doe&fontSize=80&animation=fadeIn" />
-</div>
-
-<h3 align="center">🚀 Software Engineer | Open Source Enthusiast</h3>
-
-<div align="center">
-
-  ![Profile Views](https://komarev.com/ghpvcounter/?username=dev-jane-doe)
-
-</div>
+<h1 align="center">Hi there, I'm Ravi 👋</h1>
+<h3 align="center">Software Engineering Student | Full-Stack Developer in Progress</h3>
 
 <p align="center">
-  <a href="https://your-blog-url.com"><img src="https://img.shields.io/badge/Blog-blue?style=for-the-badge&logo=hashnode"/></a>
-  <a href="https://linkedin.com/in/jane-doe"><img src="https://img.shields.io/badge/LinkedIn-Profile-blue?style=for-the-badge&logo=linkedin"/></a>
+  Completing a Kingston University top-up degree (delivered via ESOFT, Sri Lanka), building practical full-stack projects along the way.
 </p>
 
-### 👩‍💻 About Me
+---
 
-```typescript
-const developer = {
-    name: "Jane Doe",
-    location: "Tech City 🌆",
-    role: "Software Engineer",
-    currentFocus: "Building Cool Projects",
-    communities: ["Tech Community", "Open Source Contributor"],
-    techStack: ["Web Development", "Cloud", "DevOps"],
-    funFact: "I debug with coffee! ☕"
-};
-```
+### 🚀 About Me
 
-### 🎯 Current Focus
+- 🎓 Software Engineering student pursuing a Kingston University top-up degree
+- 💻 Building full-stack skills across **PHP, React, SQL, Flutter & JavaScript**
+- 🏗️ Currently focused on personal finance tools and PWA development
+- 🌱 Learning software development practices, system modelling, and UML/OOAD
+- 🌐 Based in Sri Lanka 🇱🇰
 
-- 🚀 Working on [Project Name](https://github.com/username/project)
-- 📚 Learning new technologies
-- 🤝 Contributing to open source
-- ✍️ Writing technical blogs
+---
 
-### 🛠️ Tech Arsenal
 
-<details>
-<summary>💻 Languages</summary>
-<br>
-<p>
-  <img src="https://img.shields.io/badge/JavaScript-F7DF1E?style=for-the-badge&logo=javascript&logoColor=black"/>
-  <img src="https://img.shields.io/badge/Python-3776AB?style=for-the-badge&logo=python&logoColor=white"/>
-  <img src="https://img.shields.io/badge/TypeScript-007ACC?style=for-the-badge&logo=typescript&logoColor=white"/>
-  <img src="https://img.shields.io/badge/Go-00ADD8?style=for-the-badge&logo=go&logoColor=white"/>
+### 🛠️ Technologies & Tools
+<p align="left">
+  <img src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/html5/html5-original.svg" width="50">&nbsp;&nbsp;
+  <img src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/css3/css3-original.svg" width="50">&nbsp;&nbsp;
+  <img src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/javascript/javascript-original.svg" width="50">&nbsp;&nbsp;
+  <img src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/react/react-original.svg" width="50">&nbsp;&nbsp;
+  <img src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/php/php-original.svg" width="50">&nbsp;&nbsp;
+  <img src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/flutter/flutter-original.svg" width="50">&nbsp;&nbsp;
+  <img src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/bootstrap/bootstrap-original.svg" width="50">&nbsp;&nbsp;
+  <img src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/python/python-original.svg" width="50">&nbsp;&nbsp;
+  <img src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/java/java-original.svg" width="50">&nbsp;&nbsp;
+  <img src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/mysql/mysql-original.svg" width="50">&nbsp;&nbsp;
+  <img src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/git/git-original.svg" width="50">&nbsp;&nbsp;
+  <img src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/figma/figma-original.svg" width="50">&nbsp;&nbsp;
+  <img src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/vercel/vercel-original.svg" width="50">
 </p>
-</details>
+---
 
-<details>
-<summary>🚀 Tools & Technologies</summary>
-<br>
-<p>
-  <img src="https://img.shields.io/badge/Docker-2496ED?style=for-the-badge&logo=docker&logoColor=white"/>
-  <img src="https://img.shields.io/badge/Kubernetes-326CE5?style=for-the-badge&logo=kubernetes&logoColor=white"/>
-  <img src="https://img.shields.io/badge/AWS-232F3E?style=for-the-badge&logo=amazon-aws&logoColor=white"/>
-  <img src="https://img.shields.io/badge/React-20232A?style=for-the-badge&logo=react&logoColor=61DAFB"/>
-</p>
-</details>
+### 📌 Featured Projects
 
-### 📊 GitHub Metrics
+#### 💰 [MoneyPilot](https://github.com/RaviPraveen/MoneyPilot)
+A personal finance tracking Progressive Web App with multi-wallet management, transaction tracking, and analytics dashboards.
+- **Stack:** React 18, Recharts, Service Worker (offline support), localStorage
+- **Live demo:** [money-pilot-psi.vercel.app](https://money-pilot-psi.vercel.app)
 
-![Metrics](/github-metrics.svg)
+#### 🌐 [Portfolio](https://github.com/RaviPraveen/RaviPraveen)
+My personal portfolio site.
+- **Stack:** HTML, CSS, JavaScript
+- **Live site:** [ravi-praveen.vercel.app](https://ravi-praveen.vercel.app)
 
-### 📝 Latest Blog Posts
+#### ✨ [LUMIERE](https://github.com/RaviPraveen/LUMIERE)
+A PHP-based web project in loaclhost.
 
-<!-- BLOG-POST-LIST:START -->
-<!-- This section will be automatically updated by the workflow -->
-<!-- BLOG-POST-LIST:END -->
+---
 
-### 🤝 Let's Connect!
+### 📊 GitHub Stats
 
 <p align="center">
-  <a href="mailto:jane.doe@email.com">
-    <img src="https://img.shields.io/badge/Email-D14836?style=for-the-badge&logo=gmail&logoColor=white"/>
-  </a>
-  <a href="https://x.com/janedoe">
-    <img src="https://img.shields.io/badge/X_(Twitter)-%23000000.svg?style=for-the-badge&logo=X&logoColor=white"/>
-  </a>
+  <img height="160" src="https://github-readme-stats.vercel.app/api?username=RaviPraveen&show_icons=true&theme=tokyonight&hide_border=true" />
+  <img height="160" src="https://github-readme-stats.vercel.app/api/top-langs/?username=RaviPraveen&layout=compact&theme=tokyonight&hide_border=true" />
 </p>
 
-<div align="center">
-  <img src="https://capsule-render.vercel.app/api?type=waving&color=gradient&height=100&section=footer" />
-</div>
-```
+---
 
-## Step 4: Set Up GitHub Token
+### 📫 Connect With Me
 
-1. Go to GitHub Settings → Developer settings → Personal access tokens → Tokens (classic)
-2. Generate new token with these permissions:
-   - `repo`
-   - `read:user`
-   - `read:packages`
-3. Copy the token
-
-## Step 5: Add the Token to Your Repository
-
-1. Go to your profile repository settings
-2. Click on "Secrets and variables" → "Actions"
-3. Create new repository secret:
-   - Name: `METRICS_TOKEN`
-   - Value: (your token)
-
-## Step 6: Push to GitHub
-
-```bash
-git add .
-git commit -m "✨ Added awesome GitHub profile"
-git push
-```
-
-## Customization Tips
-
-Feel free to:
-- Change the header/footer wave colors
-- Modify sections to match your experience
-- Add your own badges and stats
-- Update the about section with your details
-- Change the emoji style
-- Add or remove sections based on your preferences
-
-Remember to replace:
-- `your-username` with your GitHub username
-- `your-blog-url.com` with your actual blog URL
-- The example email and social links with your own
-- The example projects and current focus with your real ones
-- The tech stack badges with your actual skills
-
-That's it! Your profile should now look professional and dynamic! 🎉
-
-## Need Help?
-
-If anything isn't working:
-1. Check if all files are in the correct locations
-2. Verify your GitHub token has the right permissions
-3. Make sure to replace all placeholder values
-4. Wait a few minutes for the workflows to run
+<p align="left">
+  <a href="https://ravi-praveen.vercel.app/" target="_blank">
+    <img src="https://cdn.simpleicons.org/vercel" width="40" />
+  </a>
+  ![LinkedIn](https://img.shields.io/badge/-LinkedIn-0077B5?style=flat-square&logo=linkedin&logoColor=white)]
+    <img src="https://cdn.simpleicons.org/linkedin" width="40" />
+  </a>
+  <a href="https://www.instagram.com/ravi_praveen2007" target="_blank">
+    <img src="https://cdn.simpleicons.org/instagram" width="40" />
+  </a>
+  <a href="https://github.com/your-username" target="_blank">
+    <img src="https://cdn.simpleicons.org/github" width="40" />
+  </a>
+</p>
+<p align="center"><i>⭐️ Thanks for stopping by!</i></p>
