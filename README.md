@@ -49,7 +49,7 @@ My personal portfolio site.
 - **Live site:** [ravi-praveen.vercel.app](https://ravi-praveen.vercel.app)
 
 #### ✨ [LUMIERE](https://github.com/RaviPraveen/LUMIERE)
-A PHP-based web project.
+A PHP-based web project in loaclhost.
 
 ---
 
@@ -64,7 +64,18 @@ A PHP-based web project.
 
 ### 📫 Connect With Me
 
-[![Portfolio](https://img.shields.io/badge/-Portfolio-000000?style=flat-square&logo=vercel&logoColor=white)](https://ravi-praveen.vercel.app/)
-[![LinkedIn](https://img.shields.io/badge/-LinkedIn-0077B5?style=flat-square&logo=linkedin&logoColor=white)](https://www.linkedin.com/in/ravi-praveen-7p2007277)
-
+<p align="left">
+  <a href="https://ravi-praveen.vercel.app/" target="_blank">
+    <img src="https://cdn.simpleicons.org/vercel" width="40" />
+  </a>
+  <a href="https://www.linkedin.com/in/ravi-praveen-7p2007277" target="_blank">
+    <img src="https://cdn.simpleicons.org/linkedin" width="40" />
+  </a>
+  <a href="https://www.instagram.com/ravi_praveen2007" target="_blank">
+    <img src="https://cdn.simpleicons.org/instagram" width="40" />
+  </a>
+  <a href="https://github.com/your-username" target="_blank">
+    <img src="https://cdn.simpleicons.org/github" width="40" />
+  </a>
+</p>
 <p align="center"><i>⭐️ Thanks for stopping by!</i></p>
