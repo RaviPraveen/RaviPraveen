@@ -68,7 +68,7 @@ A PHP-based web project in loaclhost.
   <a href="https://ravi-praveen.vercel.app/" target="_blank">
     <img src="https://cdn.simpleicons.org/vercel" width="40" />
   </a>
-  <a href="https://www.linkedin.com/in/ravi-praveen-7p2007277" target="_blank">
+  ![LinkedIn](https://img.shields.io/badge/-LinkedIn-0077B5?style=flat-square&logo=linkedin&logoColor=white)]
     <img src="https://cdn.simpleicons.org/linkedin" width="40" />
   </a>
   <a href="https://www.instagram.com/ravi_praveen2007" target="_blank">
