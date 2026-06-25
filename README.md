@@ -71,16 +71,16 @@ A PHP-based web project (runs on localhost).
 
 <p align="left">
   <a href="https://www.linkedin.com/in/ravi-praveen-7p2007277" target="_blank">
-    <img src="https://cdn.simpleicons.org/linkedin/0077B5" width="40" />
-  </a>&nbsp;&nbsp;
+    <img src="https://img.shields.io/badge/LinkedIn-0077B5?style=for-the-badge&logo=linkedin&logoColor=white" />
+  </a>
   <a href="https://www.instagram.com/ravi_praveen2007" target="_blank">
-    <img src="https://cdn.simpleicons.org/instagram/E4405F" width="40" />
-  </a>&nbsp;&nbsp;
+    <img src="https://img.shields.io/badge/Instagram-E4405F?style=for-the-badge&logo=instagram&logoColor=white" />
+  </a>
   <a href="https://github.com/RaviPraveen" target="_blank">
-    <img src="https://cdn.simpleicons.org/github/181717" width="40" />
-  </a>&nbsp;&nbsp;
+    <img src="https://img.shields.io/badge/GitHub-181717?style=for-the-badge&logo=github&logoColor=white" />
+  </a>
   <a href="https://ravi-praveen.vercel.app/" target="_blank">
-    <img src="https://cdn.simpleicons.org/vercel/000000" width="40" />
+    <img src="https://img.shields.io/badge/Vercel-000000?style=for-the-badge&logo=vercel&logoColor=white" />
   </a>
 </p>
 
