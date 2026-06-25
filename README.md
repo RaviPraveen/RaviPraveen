@@ -54,15 +54,12 @@ A PHP-based web project (runs on localhost).
 
 ---
 
-### 📊 GitHub Stats & Activity
+
+
+### 📊 Contribution Graph
 
 <p align="center">
-  <img height="160" src="https://github-readme-stats.vercel.app/api?username=RaviPraveen&show_icons=true&theme=tokyonight&hide_border=true" />
-  <img height="160" src="https://github-readme-stats.vercel.app/api/top-langs/?username=RaviPraveen&layout=compact&theme=tokyonight&hide_border=true" />
-</p>
-
-<p align="center">
-  <img width="100%" src="https://github-readme-activity-graph.vercel.app/graph?username=RaviPraveen&theme=tokyo-night&hide_border=true&area=true" />
+  <img src="https://ghchart.rshah.org/3b82f6/RaviPraveen" alt="Ravi's GitHub contribution graph" />
 </p>
 
 ---
