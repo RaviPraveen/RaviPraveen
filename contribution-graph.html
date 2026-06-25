@@ -1,0 +1,60 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Premium Contribution Graph - Dark & Blue Theme</title>
+    <link rel="stylesheet" href="contribution-graph.css">
+</head>
+<body>
+    <div class="contribution-container">
+        <!-- Header -->
+        <div class="contribution-header">
+            <h2 class="contribution-title">Contribution Activity</h2>
+            <div class="year-selector">
+                <button class="year-btn" data-year="2024">2024</button>
+                <button class="year-btn" data-year="2025">2025</button>
+                <button class="year-btn active" data-year="2026">2026</button>
+            </div>
+        </div>
+
+        <!-- Legend -->
+        <div class="contribution-legend">
+            <span class="legend-item">Less</span>
+            <div class="legend-colors">
+                <div class="legend-square empty"></div>
+                <div class="legend-square level-1"></div>
+                <div class="legend-square level-2"></div>
+                <div class="legend-square level-3"></div>
+                <div class="legend-square level-4"></div>
+            </div>
+            <span class="legend-item">More</span>
+        </div>
+
+        <!-- Graph Container -->
+        <div class="graph-wrapper">
+            <!-- Days of Week -->
+            <div class="days-container">
+                <div class="day-label">Mon</div>
+                <div class="day-label"></div>
+                <div class="day-label">Wed</div>
+                <div class="day-label"></div>
+                <div class="day-label">Fri</div>
+            </div>
+
+            <!-- Contribution Grid -->
+            <div class="contribution-grid" id="contributionGrid"></div>
+        </div>
+
+        <!-- Footer -->
+        <div class="contribution-footer">
+            <p class="learn-link">
+                <span class="info-icon">ℹ️</span>
+                Learn how we count contributions
+            </p>
+        </div>
+    </div>
+
+    <script src="contribution-graph.js"></script>
+</body>
+</html>
