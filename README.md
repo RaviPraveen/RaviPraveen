@@ -77,27 +77,17 @@ A PHP-based web project in localhost.
 
 <p align="center">
   <a href="https://ravi-praveen.vercel.app/" target="_blank" title="Portfolio">
-    <img src="https://img.shields.io/badge/Portfolio-000?style=for-the-badge&logo=vercel&logoColor=white" alt="Portfolio Badge" />
-  </a>
+    <img src="https://cdn.simpleicons.org/vercel" width="50" alt="Portfolio" />
+  </a>&nbsp;&nbsp;
   <a href="https://linkedin.com/in/ravi-praveen" target="_blank" title="LinkedIn">
-    <img src="https://img.shields.io/badge/LinkedIn-0077B5?style=for-the-badge&logo=linkedin&logoColor=white" alt="LinkedIn Badge" />
-  </a>
+    <img src="https://cdn.simpleicons.org/linkedin" width="50" alt="LinkedIn" />
+  </a>&nbsp;&nbsp;
   <a href="https://www.instagram.com/ravi_praveen2007" target="_blank" title="Instagram">
-    <img src="https://img.shields.io/badge/Instagram-E4405F?style=for-the-badge&logo=instagram&logoColor=white" alt="Instagram Badge" />
-  </a>
+    <img src="https://cdn.simpleicons.org/instagram" width="50" alt="Instagram" />
+  </a>&nbsp;&nbsp;
   <a href="https://github.com/RaviPraveen" target="_blank" title="GitHub">
-    <img src="https://img.shields.io/badge/GitHub-181717?style=for-the-badge&logo=github&logoColor=white" alt="GitHub Badge" />
+    <img src="https://cdn.simpleicons.org/github" width="50" alt="GitHub" />
   </a>
-</p>
-
----
-
-### 💡 Quick Stats
-
-<p align="center">
-  <img src="https://komarev.com/ghpvc/?username=RaviPraveen&style=flat-square&color=blueviolet" alt="Profile Views" />
-  <img src="https://img.shields.io/badge/Focus-Full--Stack%20Development-brightgreen?style=flat-square" alt="Focus" />
-  <img src="https://img.shields.io/badge/Learning-React%20%26%20PHP-blue?style=flat-square" alt="Learning" />
 </p>
 
 ---
