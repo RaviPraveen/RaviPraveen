@@ -76,17 +76,20 @@ A PHP-based web project in localhost.
 ### 📫 Connect With Me
 
 <p align="center">
-  <a href="https://ravi-praveen.vercel.app/" target="_blank" title="Portfolio">
-    <img src="https://cdn.simpleicons.org/vercel" width="50" alt="Portfolio" />
-  </a>&nbsp;&nbsp;
-  <a href="https://linkedin.com/in/ravi-praveen" target="_blank" title="LinkedIn">
-    <img src="https://cdn.simpleicons.org/linkedin" width="50" alt="LinkedIn" />
-  </a>&nbsp;&nbsp;
-  <a href="https://www.instagram.com/ravi_praveen2007" target="_blank" title="Instagram">
-    <img src="https://cdn.simpleicons.org/instagram" width="50" alt="Instagram" />
-  </a>&nbsp;&nbsp;
-  <a href="https://github.com/RaviPraveen" target="_blank" title="GitHub">
-    <img src="https://cdn.simpleicons.org/github" width="50" alt="GitHub" />
+  <a href="https://ravi-praveen.vercel.app/" target="_blank">
+    <img src="https://img.shields.io/badge/Portfolio-Vercel-000?logo=vercel&logoColor=white&style=for-the-badge" alt="Portfolio" />
+  </a>
+  &nbsp;&nbsp;
+  <a href="https://linkedin.com/in/ravi-praveen" target="_blank">
+    <img src="https://img.shields.io/badge/LinkedIn-0077B5?logo=linkedin&logoColor=white&style=for-the-badge" alt="LinkedIn" />
+  </a>
+  &nbsp;&nbsp;
+  <a href="https://www.instagram.com/ravi_praveen2007" target="_blank">
+    <img src="https://img.shields.io/badge/Instagram-E4405F?logo=instagram&logoColor=white&style=for-the-badge" alt="Instagram" />
+  </a>
+  &nbsp;&nbsp;
+  <a href="https://github.com/RaviPraveen" target="_blank">
+    <img src="https://img.shields.io/badge/GitHub-181717?logo=github&logoColor=white&style=for-the-badge" alt="GitHub" />
   </a>
 </p>
 
