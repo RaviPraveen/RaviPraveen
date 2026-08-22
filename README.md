@@ -1,4 +1,4 @@
-```markdown
+
 <h1 align="center">Hi there, I'm Ravi Praveen 👋</h1>
 
 <h3 align="center">Software Engineering Student | Full-Stack Developer</h3>
@@ -20,10 +20,8 @@
 
 - 🎓 Software Engineering student pursuing a **Kingston University top-up degree** via ESOFT, Sri Lanka
 - 💻 Full-stack developer building applications with **JavaScript, React, PHP, Laravel, MySQL & Flutter**
-- 📱 Interested in **web applications, mobile apps, PWAs, and software systems**
-- 🏗️ Building real-world projects including **finance, POS, management, and business applications**
+- 📱 Interested in **web applications, mobile apps, and software systems**
 - 🎨 Passionate about **UI/UX design, system architecture, and modern web experiences**
-- 🌱 Continuously learning **software engineering, system modelling, UML/OOAD, APIs, and backend development**
 - 🇱🇰 Based in Sri Lanka
 
 ---
@@ -177,4 +175,3 @@ A PHP-based web application project developed with a focus on practical web deve
 <p align="center">
   ⭐️ Thanks for visiting my profile!
 </p>
-```
