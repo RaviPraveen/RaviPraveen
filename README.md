@@ -95,34 +95,28 @@ I'm a software engineering student and full-stack developer who enjoys the space
 <img width="49%" alt="GitHub statistics" src="https://github-readme-stats.vercel.app/api?username=RaviPraveen&show_icons=true&hide_border=true&bg_color=0D1117&title_color=38BDF8&text_color=CAD5E2&icon_color=22D3EE&rank_icon=github" />
 <img width="49%" alt="Most-used languages in public repositories" src="https://github-readme-stats.vercel.app/api/top-langs/?username=RaviPraveen&layout=compact&hide_border=true&bg_color=0D1117&title_color=38BDF8&text_color=CAD5E2&langs_count=8" />
 
-<h3>✦ The Code Constellation</h3>
+<h3 align="center">✦ The Code Constellation</h3>
 
-<p><em>365 days of building, learning, and shipping — one square at a time.</em></p>
+<p align="center"><em>365 days of building, learning, and shipping — one square at a time.</em></p>
 
-<table align="center" width="100%">
-<tr>
-<td align="center" bgcolor="#000000">
+<p align="center">
+  <img width="100%" alt="Ravi Praveen's GitHub contribution calendar — dark squares and cyan activity" src="https://ghchart.xqsit94.in/dark:00c2ff/RaviPraveen" />
+</p>
 
-<br/>
+<p align="center">
+  <img src="https://img.shields.io/badge/01-Quiet_days-111111?style=flat-square" alt="Quiet days" />
+  <img src="https://img.shields.io/badge/02-Momentum-0F3D91?style=flat-square" alt="Momentum" />
+  <img src="https://img.shields.io/badge/03-Building-2563EB?style=flat-square" alt="Building" />
+  <img src="https://img.shields.io/badge/04-Full_power-00C2FF?style=flat-square" alt="Full power" />
+</p>
 
-<a href="https://github.com/RaviPraveen?tab=overview"><img width="96%" alt="Ravi Praveen's live cyan GitHub contribution calendar" src="https://ghchart.rshah.org/00C2FF/RaviPraveen" /></a>
+<p align="center">
+  <img width="100%" alt="GitHub contribution streak" src="https://streak-stats.demolab.com?user=RaviPraveen&theme=transparent&hide_border=true&ring=22D3EE&fire=38BDF8&currStreakLabel=38BDF8&sideLabels=CAD5E2&dates=94A3B8" />
+</p>
 
-<br/><br/>
-
-<img src="https://img.shields.io/badge/01-Quiet_days-4B5563?style=flat-square" alt="Quiet days" />
-<img src="https://img.shields.io/badge/02-Momentum-1D4ED8?style=flat-square" alt="Momentum" />
-<img src="https://img.shields.io/badge/03-Building-2563EB?style=flat-square" alt="Building" />
-<img src="https://img.shields.io/badge/04-Full_power-00C2FF?style=flat-square" alt="Full power" />
-
-<br/><br/>
-
-</td>
-</tr>
-</table>
-
-<img width="98%" alt="GitHub contribution streak" src="https://streak-stats.demolab.com?user=RaviPraveen&theme=transparent&hide_border=true&ring=22D3EE&fire=38BDF8&currStreakLabel=38BDF8&sideLabels=CAD5E2&dates=94A3B8" />
-
-<img width="98%" alt="Contribution activity graph" src="https://github-readme-activity-graph.vercel.app/graph?username=RaviPraveen&bg_color=000000&color=38BDF8&line=22D3EE&point=FFFFFF&area=true&hide_border=true" />
+<p align="center">
+  <img width="100%" alt="Contribution activity graph" src="https://github-readme-activity-graph.vercel.app/graph?username=RaviPraveen&bg_color=000000&color=38BDF8&line=22D3EE&point=FFFFFF&area=true&hide_border=true" />
+</p>
 
 </div>
 
