@@ -100,7 +100,7 @@ I'm a software engineering student and full-stack developer who enjoys the space
 <p align="center"><em>My GitHub activity over the last 12 months.</em></p>
 
 <p align="center">
-  <img width="100%" alt="Ravi Praveen's GitHub contribution calendar for the last 12 months" src="https://ssr-contributions-svg.vercel.app/_/RaviPraveen?chart=calendar&format=svg&weeks=53&dark=true&theme=dark&colors=111111,0F3D91,2563EB,00C2FF" />
+  <img width="100%" alt="Ravi Praveen's GitHub contribution calendar for the last 12 months" src="https://ghchart.xqsit94.in/dark:00c2ff/RaviPraveen" />
 </p>
 
 <p align="center">
