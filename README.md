@@ -97,10 +97,10 @@ I'm a software engineering student and full-stack developer who enjoys the space
 
 <h3 align="center">✦ The Code Constellation</h3>
 
-<p align="center"><em>365 days of building, learning, and shipping — one square at a time.</em></p>
+<p align="center"><em>My GitHub activity over the last 12 months.</em></p>
 
 <p align="center">
-  <img width="100%" alt="Ravi Praveen's GitHub contribution calendar — dark squares and cyan activity" src="https://ghchart.xqsit94.in/dark:00c2ff/RaviPraveen" />
+  <img width="100%" alt="Ravi Praveen's GitHub contribution calendar for the last 12 months" src="https://ssr-contributions-svg.vercel.app/_/RaviPraveen?chart=calendar&format=svg&weeks=53&dark=true&theme=dark&colors=111111,0F3D91,2563EB,00C2FF" />
 </p>
 
 <p align="center">
@@ -112,10 +112,6 @@ I'm a software engineering student and full-stack developer who enjoys the space
 
 <p align="center">
   <img width="100%" alt="GitHub contribution streak" src="https://streak-stats.demolab.com?user=RaviPraveen&theme=transparent&hide_border=true&ring=22D3EE&fire=38BDF8&currStreakLabel=38BDF8&sideLabels=CAD5E2&dates=94A3B8" />
-</p>
-
-<p align="center">
-  <img width="100%" alt="Contribution activity graph" src="https://github-readme-activity-graph.vercel.app/graph?username=RaviPraveen&bg_color=000000&color=38BDF8&line=22D3EE&point=FFFFFF&area=true&hide_border=true" />
 </p>
 
 </div>
