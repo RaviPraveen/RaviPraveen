@@ -95,6 +95,19 @@ I'm a software engineering student and full-stack developer who enjoys the space
 <img width="49%" alt="GitHub statistics" src="https://github-readme-stats.vercel.app/api?username=RaviPraveen&show_icons=true&hide_border=true&bg_color=0D1117&title_color=38BDF8&text_color=CAD5E2&icon_color=22D3EE&rank_icon=github" />
 <img width="49%" alt="Most-used languages in public repositories" src="https://github-readme-stats.vercel.app/api/top-langs/?username=RaviPraveen&layout=compact&hide_border=true&bg_color=0D1117&title_color=38BDF8&text_color=CAD5E2&langs_count=8" />
 
+<h3>✦ The Code Constellation</h3>
+
+<p><em>365 days of building, learning, and shipping — one square at a time.</em></p>
+
+<a href="https://github.com/RaviPraveen?tab=overview&from=2026-01-01&to=2026-12-31"><img width="96%" alt="Ravi Praveen's live GitHub contribution calendar in electric blue instead of default green" src="https://ghchart.rshah.org/00C2FF/RaviPraveen" /></a>
+
+<p>
+<img src="https://img.shields.io/badge/01-Quiet_days-101A30?style=flat-square" alt="Quiet days" />
+<img src="https://img.shields.io/badge/02-Momentum-164A7A?style=flat-square" alt="Momentum" />
+<img src="https://img.shields.io/badge/03-Building-087DB8?style=flat-square" alt="Building" />
+<img src="https://img.shields.io/badge/04-Full_power-00C2FF?style=flat-square" alt="Full power" />
+</p>
+
 <img width="98%" alt="GitHub contribution streak" src="https://streak-stats.demolab.com?user=RaviPraveen&theme=transparent&hide_border=true&ring=22D3EE&fire=38BDF8&currStreakLabel=38BDF8&sideLabels=CAD5E2&dates=94A3B8" />
 
 <img width="98%" alt="Contribution activity graph" src="https://github-readme-activity-graph.vercel.app/graph?username=RaviPraveen&bg_color=0D1117&color=38BDF8&line=22D3EE&point=FFFFFF&area=true&hide_border=true" />
